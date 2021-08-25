@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar navbar-expand-lg {
+  border-radius: 0px;
+  background-color: rgb(122, 118, 118);
+}
+
+h1 {
+  color: white;
+  font-size: 1.2em;
+  font-family: "Oxygen", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: maroon;
+}
+
+#main-content {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.navbar-nav {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle {
+  border: 2px solid white;
+  margin-right: 25px;
+}
+
+.icon-bar {
+  background-color: white;
+}
+
+#tiles {
+  width: 100%;
+  text-align: center;
+}
+
+#tile-1,
+#tile-2,
+#tile-3 {
+  color: black;
+  background-color: lightgray;
+  height: auto;
+  margin-top: 5px;
+}
